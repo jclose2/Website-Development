@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kwimby Fan Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#181818;
+    color:white;
+}
+
+header{
+    background:#111;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:3px solid crimson;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:crimson;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:crimson;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:220px 1fr 220px;
+    gap:20px;
+    padding:20px;
+}
+
+.sidebar{
+    background:#2b2b2b;
+    padding:20px;
+    border-radius:8px;
+}
+
+.sidebar h3{
+    margin-bottom:15px;
+    color:crimson;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    margin-bottom:12px;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+}
+
+.sidebar a:hover{
+    color:crimson;
+}
+
+main{
+    background:#242424;
+    border-radius:8px;
+    padding:25px;
+}
+
+.hero{
+    width:100%;
+    height:350px;
+    background:url("https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80") center/cover;
+    border-radius:8px;
+    margin-bottom:25px;
+}
+
+main h1{
+    color:crimson;
+    margin-bottom:15px;
+}
+
+main p{
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.video{
+    margin:25px 0;
+}
+
+iframe{
+    width:100%;
+    height:400px;
+    border:none;
+    border-radius:8px;
+}
+
+.ad{
+    background:#3a3a3a;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+section{
+    margin-top:40px;
+}
+
+.section-title{
+    background:#111;
+    padding:15px;
+    color:crimson;
+    font-size:26px;
+    text-align:center;
+}
+
+.article-layout{
+    display:grid;
+    grid-template-columns:220px 1fr 220px;
+    gap:20px;
+    padding:20px;
+}
+
+.article-box{
+    background:#242424;
+    border-radius:8px;
+    padding:25px;
+}
+
+footer{
+    margin-top:40px;
+    background:#111;
+    text-align:center;
+    padding:25px;
+    border-top:3px solid crimson;
+}
+
+button{
+    background:crimson;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#ff4d6d;
+}
+
+@media(max-width:900px){
+
+.container,
+.article-layout{
+grid-template-columns:1fr;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+header{
+flex-direction:column;
+gap:15px;
+}
+
+iframe{
+height:250px;
+}
+
+.hero{
+height:220px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">🎸 KWIMBY</div>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Popular Articles</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Band Members</a></li>
+<li><a href="#">Search</a></li>
+</ul>
+</nav>
+
+</header>
+
+<div class="container">
+
+<aside class="sidebar">
+
+<h3>Related Articles</h3>
+
+<ul>
+<li><a href="#">The History of Kwimby</a></li>
+<li><a href="#">Best Live Performances</a></li>
+<li><a href="#">Top 10 Songs</a></li>
+<li><a href="#">Album Reviews</a></li>
+<li><a href="#">Fan Gallery</a></li>
+<li><a href="#">Merchandise</a></li>
+</ul>
+
+</aside>
+
+<main>
+
+<div class="hero"></div>
+
+<h1>Welcome to the Ultimate Kwimby Fan Page</h1>
+
+<p>
+Welcome to the home of everything Kwimby! Whether you've been listening since
+their first album or you've just discovered their music, this fan page brings
+together the latest news, concert updates, albums, photos, videos, and fan
+discussions.
+</p>
+
+<p>
+Kwimby has built a reputation for energetic live performances, unforgettable
+guitar riffs, and lyrics that connect with fans around the world.
+</p>
+
+<div class="video">
+
+<iframe
+src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<h2>Upcoming Tour</h2>
+
+<p>
+The band is rumored to be planning another North American tour featuring songs
+from their newest album along with fan favorites.
+</p>
+
+<button>Join the Fan Club</button>
+
+</main>
+
+<aside>
+
+<div class="ad">
+<h3>Upcoming Shows</h3>
+
+<p>Chicago</p>
+<p>New York</p>
+<p>Los Angeles</p>
+<p>Seattle</p>
+
+</div>
+
+<div class="ad">
+
+<h3>Official Merchandise</h3>
+
+<p>T-Shirts</p>
+<p>Vinyl Records</p>
+<p>Posters</p>
+
+</div>
+
+</aside>
+
+</div>
+
+<section>
+
+<div class="section-title">
+⭐ Popular Articles
+</div>
+
+<div class="article-layout">
+
+<aside class="sidebar">
+
+<h3>Most Read</h3>
+
+<ul>
+<li>Greatest Hits Ranked</li>
+<li>Hidden Song Meanings</li>
+<li>Meet the Guitarist</li>
+<li>Tour Memories</li>
+<li>Rare Photos</li>
+</ul>
+
+</aside>
+
+<div class="article-box">
+
+<h2>Why Fans Love Kwimby</h2>
+
+<p>
+From emotional ballads to arena rock anthems, Kwimby continues to captivate
+fans with their evolving sound and incredible stage presence.
+</p>
+
+<p>
+Their concerts combine stunning lighting, immersive visuals, and audience
+interaction, creating unforgettable experiences.
+</p>
+
+</div>
+
+<aside>
+
+<div class="ad">
+
+<h3>Advertisement</h3>
+
+<p>Band Merchandise</p>
+
+</div>
+
+</aside>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+📰 Latest News
+</div>
+
+<div class="article-layout">
+
+<aside class="sidebar">
+
+<h3>Latest Stories</h3>
+
+<ul>
+<li>Studio Update</li>
+<li>New Single Released</li>
+<li>Behind the Scenes</li>
+<li>Fan Contest</li>
+<li>Interview Highlights</li>
+</ul>
+
+</aside>
+
+<div class="article-box">
+
+<h2>New Album Coming Soon</h2>
+
+<p>
+The band has announced that recording sessions are underway for a brand-new
+album. Fans are expecting a blend of classic Kwimby sound with exciting new
+musical influences.
+</p>
+
+<p>
+Stay tuned for exclusive updates, sneak peeks, and behind-the-scenes content
+as more information becomes available.
+</p>
+
+</div>
+
+<aside>
+
+<div class="ad">
+
+<h3>Newsletter</h3>
+
+<p>Subscribe for updates!</p>
+
+<button>Subscribe</button>
+
+</div>
+
+</aside>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>KWIMBY Fan Page</h3>
+
+<p>
+This is an unofficial fan-made website created for educational purposes.
+</p>
+
+<p>
+© 2026 Kwimby Fan Community
+</p>
+
+</footer>
+
+</body>
+</html>
