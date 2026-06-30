@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kwimby | Band Members</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#181818;
+    color:white;
+}
+
+header{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    border-bottom:3px solid crimson;
+}
+
+.logo{
+    font-size:32px;
+    color:crimson;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover{
+    color:crimson;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+    background:#242424;
+}
+
+.hero h1{
+    color:crimson;
+    font-size:48px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:18px;
+}
+
+.members{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    padding:40px;
+}
+
+.member-card{
+    background:#2b2b2b;
+    border-radius:10px;
+    overflow:hidden;
+    text-align:center;
+    transition:.3s;
+}
+
+.member-card:hover{
+    transform:translateY(-8px);
+}
+
+.member-card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.member-card h2{
+    margin-top:20px;
+    color:crimson;
+}
+
+.member-card h3{
+    margin:10px 0;
+    color:#ccc;
+}
+
+.member-card p{
+    padding:20px;
+    line-height:1.6;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111;
+    border-top:3px solid crimson;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">KWIMBY</div>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="band-members.html">Band Members</a></li>
+<li><a href="#">Popular Articles</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Photos</a></li>
+</ul>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Meet the Band</h1>
+
+<p>
+The musicians behind Kwimby.
+</p>
+
+</section>
+
+<section class="members">
+
+<div class="member-card">
+
+<img src="https://via.placeholder.com/400x500?text=Dave+Adams" alt="Dave Adams">
+
+<h2>Dave Adams</h2>
+
+<h3>Lead Guitar</h3>
+
+<p>
+Dave Adams is the lead guitarist of Kwimby. Known for expressive solos,
+melodic riffs, and energetic live performances, Dave's playing has become
+one of the defining sounds of the band.
+</p>
+
+</div>
+
+<div class="member-card">
+
+<img src="https://via.placeholder.com/400x500?text=Lead+Singer" alt="Lead Singer">
+
+<h2>Coming Soon</h2>
+
+<h3>Lead Vocals</h3>
+
+<p>
+Information about the band's lead vocalist will be added soon.
+</p>
+
+</div>
+
+<div class="member-card">
+
+<img src="https://via.placeholder.com/400x500?text=Bass+Player" alt="Bass Player">
+
+<h2>Coming Soon</h2>
+
+<h3>Bass Guitar</h3>
+
+<p>
+Band member profile coming soon.
+</p>
+
+</div>
+
+<div class="member-card">
+
+<img src="https://via.placeholder.com/400x500?text=Drummer" alt="Drummer">
+
+<h2>Coming Soon</h2>
+
+<h3>Drums</h3>
+
+<p>
+Band member profile coming soon.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kwimby Fan Page</p>
+
+<p>Unofficial Fan Website</p>
+
+</footer>
+
+</body>
+</html>
