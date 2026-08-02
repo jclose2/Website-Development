@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kwimby | Top 10 Songs</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">🎸 KWIMBY</div>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Band_Members.html">Band Members</a></li>
+<li><a href="Band_News.html">News</a></li>
+<li><a href="Band_Photos.html">Photo Gallery</a></li>
+<li><a href="Band_Flyers.html">Concert Flyers</a></li>
+</ul>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Kwimby's Top 10 Songs</h1>
+
+<p>
+...Well, technically it's only six. They broke up before they could write four more.
+</p>
+
+</section>
+
+<div class="container">
+
+<aside class="sidebar">
+
+<h3>Fun Facts</h3>
+
+<ul>
+<li>Only six original songs were ever completed.</li>
+<li>Every song was performed live.</li>
+<li>No official studio album was released.</li>
+<li>Fans still debate which song was the best.</li>
+</ul>
+
+</aside>
+
+<main>
+
+<h1>The Definitive Ranking</h1>
+
+<p>
+Although Kwimby never reached ten original songs, fans have passionately debated these six classics since the band went on hiatus.
+</p>
+
+<table>
+
+<tr>
+<th>Rank</th>
+<th>Song Title</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td><strong>Patchouli in My Pocket</strong></td>
+<td>A laid-back anthem about accidentally washing your favorite incense with the laundry.</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><strong>Volkswagen Dreams</strong></td>
+<td>A groovy road-trip song celebrating old vans, questionable directions, and good friends.</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><strong>Kaleidoscope Shoes</strong></td>
+<td>A psychedelic rocker about seeing life from a different perspective.</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><strong>Peace, Love & Pizza Rolls</strong></td>
+<td>A fan favorite combining flower power with late-night snacks.</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><strong>Granola Moonrise</strong></td>
+<td>A mellow tune inspired by campfires, acoustic guitars, and way too much trail mix.</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td><strong>Tie-Dye State of Mind</strong></td>
+<td>The band's final original song before going on hiatus.</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Coming Soon...</td>
+<td>Unfortunately, the band broke up.</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Coming Soon...</td>
+<td>Creative differences had other plans.</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Coming Soon...</td>
+<td>Maybe after the reunion tour (As Wiggum of course).</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>Coming Soon...</td>
+<td>Fans are still hopeful.</td>
+</tr>
+
+</table>
+
+<br>
+
+<h2>Editor's Note</h2>
+
+<p>
+Despite having only six original songs, Kwimby developed a loyal following throughout eastern Indiana. Fans often knew every lyric and looked forward to hearing these songs at every local show. Rumors of new material surfaced shortly before the band announced its hiatus, leaving many to wonder what songs seven through ten might have sounded like. I like to imagine that Kwimby comes back as a new death metal band for some reason. Maybe instead of Quimby, Kwimby, or Wiggum, they could return under the name "Side-Show Bob".
+</p>
+
+</main>
+
+<aside class="ad">
+
+<h3>Fan Poll</h3>
+
+<p><strong>Favorite Song?</strong></p>
+
+<p>🥇 Patchouli in My Pocket</p>
+
+<p>🥈 Volkswagen Dreams</p>
+
+<p>🥉 Peace, Love & Pizza Rolls</p>
+
+<br>
+
+<p><em>"Still waiting for Song #7..."</em></p>
+
+</aside>
+
+</div>
+
+<footer>
+
+<h3>KWIMBY Fan Page</h3>
+
+<p>This is an unofficial fan website created for educational purposes.</p>
+
+<p>© 2026 Kwimby Fan Community</p>
+
+</footer>
+
+</body>
+</html>
