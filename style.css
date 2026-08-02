@@ -17,22 +17,22 @@ body{
 
 
 header{
-    background:linear-gradient(90deg,#111111,#1b1b3a,#111111);
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 40px;
+    flex-direction:column;
+    background:#111;
     border-bottom:4px solid #ff0055;
-    position:sticky;
-    top:0;
-    z-index:1000;
+    padding:0;
 }
 
 .logo{
-    font-size:34px;
-    font-weight:bold;
-    color:#00c8ff;
-    text-shadow:0 0 8px #00c8ff,0 0 20px #00c8ff;
+    width:100%;
+}
+
+.logo img{
+    display:block;
+    width:100%;
+    max-height:250px;
+    object-fit:cover;
 }
 
 nav ul{
