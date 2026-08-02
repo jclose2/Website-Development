@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kwimby | Top 10 Songs</title>
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -39,8 +39,8 @@
 <h3>Related Articles</h3>
 
 <ul>
-<li><a href="Band_History.html" class="active">The History of Kwimby</a></li>
-<li><a href="Band_Songs.html">Top 10 Songs</a></li>
+<li><a href="Band_History.html">The History of Kwimby</a></li>
+<li><a href="Band_Songs.html" class = "active">Top 10 Songs</a></li>
 <li><a href="Band_Name.html">The Band Formerly Known as Quimby. Why the name change?</a></li>
 <li><a href="Band_Hiatus.html">Kwimby announces hiatus</a></li>
 </ul>
